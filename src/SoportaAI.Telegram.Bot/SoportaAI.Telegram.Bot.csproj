@@ -7,10 +7,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-	  <PackageReference Include="Telegram.Bot" Version="19.0.0" />
-	  <PackageReference Include="Telegram.Bot.CommandHandler" Version="1.5.0" />
-	  <PackageReference Include="Telegram.Bots.Extensions.Polling" Version="5.9.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Telegram.Bot" Version="19.0.0" />
+		<PackageReference Include="Telegram.Bot.CommandHandler" Version="1.5.0" />
+		<PackageReference Include="Telegram.Bots.Extensions.Polling" Version="5.9.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\SoportaAI.Telegram.Infrastructure\SoportaAI.Telegram.Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>
