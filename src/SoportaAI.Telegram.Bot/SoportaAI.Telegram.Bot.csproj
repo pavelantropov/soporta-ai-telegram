@@ -14,7 +14,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\SoportaAI.Telegram.Infrastructure\SoportaAI.Telegram.Infrastructure.csproj" />
+	  <Folder Include="Application\" />
 	</ItemGroup>
 
 </Project>

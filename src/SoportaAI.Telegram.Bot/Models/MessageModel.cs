@@ -1,4 +1,6 @@
-﻿namespace SoportaAI.Api.Model.Models;
+﻿using SoportaAI.Api.Model.Models;
+
+namespace SoportaAI.Telegram.Bot.Models;
 
 public class MessageModel
 {
